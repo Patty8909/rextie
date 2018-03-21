@@ -2,7 +2,7 @@ import React from 'react'
 
 const ModalBankAccount = () => (
   <div>
-    <div className="modal" tabindex="-1" role="dialog">
+    <div className="modal" id="exampleModal" tabindex="-1" role="dialog" data-target="#foo">
       <div className="modal-dialog" role="document">
         <div className="modal-content">
           <div className="modal-header">
