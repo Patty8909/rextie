@@ -1,8 +1,11 @@
 import React from 'react'
+import InformationData from './confirmationData/InformationData'
+import MainTransfer from './transfer/mainTransfer'
 
 const App = () => (
     <div>
-        <h1>REXTIE</h1>
+        <InformationData/>
+        <MainTransfer/>
     </div>
 )
 
