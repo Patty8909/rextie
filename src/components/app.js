@@ -1,11 +1,10 @@
 import React from 'react'
-import InformationData from './confirmationData/InformationData'
-import MainTransfer from './transfer/mainTransfer'
+import Header from './menu/Header'
 
 const App = () => (
     <div>
-        <InformationData/>
-        <MainTransfer/>
+        <h1>REXTIE</h1>
+        <Header/>
     </div>
 )
 
