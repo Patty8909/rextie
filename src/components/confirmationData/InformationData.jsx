@@ -10,16 +10,16 @@ const InformationData = () => (
     
 <div>
 <div className="row justify-content-center">
-  <div className="col-6 col-md-2 border">Tipo de operación</div>
-  <div className="col-6 col-md-2 border">Cliente ENVÍA</div>
-  <div className="col-6 col-md-2 border">Cliente RECIBIRÁ</div>
-  <div className="col-6 col-md-2 border">Tipo de Cambio</div>
+  <div className="col-6 col-md-1 border">Tipo de operación</div>
+  <div className="col-6 col-md-1 border">Cliente ENVÍA</div>
+  <div className="col-6 col-md-1 border">Cliente RECIBIRÁ</div>
+  <div className="col-6 col-md-1 border">Tipo de Cambio</div>
   <div className="w-100 d-none d-md-block"></div>
 
-  <div className="col-6 col-md-2 border">COMPRA</div>
-  <div className="col-6 col-md-2 border">1000.00 Dólares</div>
-  <div className="col-6 col-md-2 border">3246.00 Soles</div>
-  <div className="col-6 col-md-2 border">3.2460</div>
+  <div className="col-6 col-md-1 border">COMPRA</div>
+  <div className="col-6 col-md-1 border">1000.00 Dólares</div>
+  <div className="col-6 col-md-1 border">3246.00 Soles</div>
+  <div className="col-6 col-md-1 border">3.2460</div>
 </div>
 </div>
 <br/>

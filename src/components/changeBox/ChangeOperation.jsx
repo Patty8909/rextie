@@ -2,6 +2,8 @@ import React from 'react';
 
 const ChangeOperation = () => (
   <div>
+    <div className="container">
+  <div className="row justify-content-md-center">
     <div className="card border-info mb-3" style={{'max-width': '18rem'}}>
       <div className="card-body text-info">
         <h3>Compra: 
@@ -10,6 +12,28 @@ const ChangeOperation = () => (
         </h3>
       </div>
     </div>
+    </div>
+    </div>
+
+    <div className="container">
+  <div className="row justify-content-md-center">
+    <div className="col col-md-2 change">
+      Tengo
+    </div>
+    <div className="col col-md-2 change">
+      USD $
+    </div>
+  </div>
+  <div className="row justify-content-md-center">
+    <div className="col col-md-2 change">
+      Quiero
+    </div>
+    <div className="col col-md-2 change">
+      PEN S/.
+    </div>
+   
+  </div>
+</div>
     
     <div className="container">
       <div className="col-sm-6">
