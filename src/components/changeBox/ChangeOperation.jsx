@@ -1,5 +1,4 @@
 import React from 'react';
-import Messages from './Messages';
 
 const ChangeOperation = () => (
   <div>
