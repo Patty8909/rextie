@@ -14,16 +14,16 @@ const Header = () => (
 
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="nav navbar-nav pull-right mr-auto">
-            <li className="nav-item active">
-              <a className="nav-link" href="">Home <span className="sr-only">(current)</span></a>
-            </li>
-          </ul>
-          <form className="form-inline my-2 my-lg-0">
-            <li className="nav-item">
-              <a className="nav-link" href="">Link</a>
-            </li>
-            <a className="nav-link my-2 my-sm-0" type="submit" role="button">Salir</a>
-          </form>
+            </ul>
+          <div className="btn-group">
+          <button type="button" className="btn btn-success dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Usuario
+          </button>
+          <div className="dropdown-menu">
+            <a className="dropdown-item" href="">Salir</a>
+            
+          </div>
+        </div>
         </div>
       </nav>
     </div>

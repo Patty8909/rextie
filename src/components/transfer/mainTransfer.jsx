@@ -7,7 +7,7 @@ const MainTransfer = () => (
    <div>
      <div className="container">
        <div className="row">
-       <div class="col-md-4 offset-md-4">
+       <div className="col-md-4 offset-md-4">
        Tu operación con código <b>N° 8608</b> ha sido registrada con éxito el día <b>23/02 a las 23:00</b> horas. Deberás realizar la transferencia en un máximo de 15 minutos para mantener el tipo de cambio acordado. Debes realizar sólo dos pasos para culminar tu operación.
        </div>
        </div>

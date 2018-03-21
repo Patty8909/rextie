@@ -4,7 +4,7 @@ const ChangeOperation = () => (
   <div>
     <div className="container">
   <div className="row justify-content-md-center">
-    <div className="card border-info mb-3" style={{'max-width': '18rem'}}>
+    <div className="card border-info mb-3" style={{'maxWidth': '18rem'}}>
       <div className="card-body text-info">
         <h3>Compra: 
           <span></span>
@@ -39,16 +39,16 @@ const ChangeOperation = () => (
       <div className="col-sm-6">
         <form className="dropdown-menu p-4">
           <div className="form-group">
-            <label for="exampleDropdownFormEmail2">Email address</label>
+            <label htmlFor="exampleDropdownFormEmail2">Email address</label>
             <input type="email" className="form-control" id="exampleDropdownFormEmail2" placeholder="email@example.com"/>
           </div>
           <div className="form-group">
-            <label for="exampleDropdownFormPassword2">Password</label>
+            <label htmlFor="exampleDropdownFormPassword2">Password</label>
             <input type="password" className="form-control" id="exampleDropdownFormPassword2" placeholder="Password"/>
           </div>
           <div className="form-check">
             <input type="checkbox" className="form-check-input" id="dropdownCheck2"/>
-            <label className="form-check-label" for="dropdownCheck2">
+            <label className="form-check-label" htmlFor="dropdownCheck2">
               Remember me
             </label>
           </div>

@@ -1,9 +1,9 @@
 import React from 'react'
 
 const TransferYourOnlineBank = () => (
-  <div class="container">
-  <div class="row justify-content-md-center">
-    <div class="col-md-auto line-height">
+  <div className="container">
+  <div className="row justify-content-md-center">
+    <div className="col-md-auto line-height">
     <h6>Paso 1: Transfiere desde tu banca en línea</h6>
     <p>Cantidad a transferir:</p>
     <p>Banco origen:</p>

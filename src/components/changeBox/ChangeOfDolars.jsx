@@ -6,7 +6,7 @@ import './change.css'
 const ChangeOfDolars = () => (
   <div>
         <div className="container">
-  <div class="row justify-content-md-center">
+  <div className="row justify-content-md-center">
     <h5>¿Cu&aacute;nto quieres cambiar?</h5>
     </div>
     <div className="row justify-content-md-center">
