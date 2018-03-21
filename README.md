@@ -81,16 +81,16 @@ Proyecto
 
 1. Día 17 de marzo:
 
-  - **Organización personal**: tomar decisiones del reto a desarrollar.
+  **Organización personal**: tomar decisiones del reto a desarrollar.
     - Encargadas: Ambar, Lesly, Patricia.
 
-  - **Material a utilizar**: 
+  **Material a utilizar**: 
     - Ambar: Encuesta, investigación de la empresa, puntos a corroborar.
     - Lesly y Patricia: investigacion de las dependencias a usar.
 
 2. Día 18 de marzo:
 
-  - **Desarrollo**: 
+  **Desarrollo**: 
     - Ambar: Creación de mockup, prototipo
     - Lesly y Patricia: creación de componentes
 
