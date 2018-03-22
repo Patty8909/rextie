@@ -1,9 +1,10 @@
 import React from 'react'
-import TransferYourOnlineBank from './transferYourOnlineBank'
+import TransferYourOnlineBank from './TransferYourOnlineBank'
 import RextieTransferToClient from './RextieTransferToClient'
-import './mainTransfer.css'
+import { connect } from 'react-redux';
+import './MainTransfer.css'
 
-const MainTransfer = () => (
+const MainTransfer = ({navigateTo}) => (
    <div>
      <div className="container">
        <div className="row">
@@ -17,14 +18,10 @@ const MainTransfer = () => (
     <TransferYourOnlineBank/>
     <RextieTransferToClient/>
     <div className="btn-group btn-group-toggle" data-toggle="buttons">
-      <label className="btn btn-secondary">
-        <input type="radio" name="options" id="option2" autoComplete="off"/> Ir a Página Principal
-      </label>
-      <label className="btn btn-secondary active">
-        <input type="radio" name="options" id="option1" autoComplete="off" defaultChecked/> Nueva Operación
-      </label>
+      <a className="btn btn-success" onClick={() => navigateTo('alloperations')}>Ir a la P&aacute;gina Principal</a>
+      <a className="btn btn-success" onClick={() => navigateTo('changeofdolars')}>Nueva operaci&iacute;</a>
     </div>
      </div>
 )
 
-export default MainTransfer
+export default connect()(MainTransfer);

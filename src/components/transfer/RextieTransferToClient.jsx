@@ -4,7 +4,7 @@ const RextieTransferToClient = () => (
   <div className="container">
   <div className="row justify-content-md-center">
     <div className="col-md-auto line-height">
-    <h6>Paso 2: Rextie realizará la transferencia al cliente</h6>
+    <h5>Paso 2: Rextie realizará la transferencia al cliente</h5>
     <p>Cantidad a transferir:</p>
     <p>Tipo de cambio:</p>
     <p>Banco destino:</p>

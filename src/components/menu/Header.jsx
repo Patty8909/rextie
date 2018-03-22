@@ -17,7 +17,7 @@ const Header = () => (
             </ul>
           <div className="btn-group">
           <button type="button" className="btn btn-success dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Usuario
+            <i class="fa fa-user-o"></i> Usuario
           </button>
           <div className="dropdown-menu">
             <a className="dropdown-item" href="">Salir</a>

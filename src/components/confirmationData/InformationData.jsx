@@ -1,7 +1,8 @@
-import React from 'react'
-import ModalBankAccount from './ModalBankAccount'
+import React from 'react';
+import { connect } from 'react-redux';
+import ModalBankAccount from './ModalBankAccount';
 
-const InformationData = () => (
+const InformationData = ({navigateTo}) => (
   <div>
     <h3 className="text-center">
       Confirmación de Datos
@@ -25,7 +26,7 @@ const InformationData = () => (
         <div>
           <p>
             ¿Deseas registrar una cuenta bancaria en este momento?
-            <a className="btn btn-primary" href="" role="button" data-toggle="modal" data-target="#exampleModal">
+            <a className="btn btn-primary" href="" role="button" data-toggle="modal" data-target="#exampleModal" onClick={() => navigateTo('modalbankaccount')}>
               <i className="fas fa-plus"></i>
             </a>
           </p>     
@@ -65,7 +66,8 @@ const InformationData = () => (
               <input type="radio" name="options" id="option2" autoComplete="off"/> Cambiar la cantidad
             </label>
       <label className="btn btn-secondary active">
-        <input type="radio" name="options" id="option1" autoComplete="off" defaultChecked/> Aceptar
+        <a className="btn btn-back" onClick={() => navigateTo('alloperations')}>Cambiar Operación</a>
+        <a className="btn btn-success" onClick={() => navigateTo('maintransfer')}>Aceptar</a> 
       </label>
       
     </div>
@@ -75,4 +77,4 @@ const InformationData = () => (
   </div>
 )
 
-export default InformationData
+export default connect()(InformationData);

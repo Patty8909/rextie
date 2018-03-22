@@ -1,9 +1,17 @@
-import React from 'react'
-import {render} from 'react-dom'
-import App from './components/app'
-import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
+import React from 'react';
+import { render } from 'react-dom';
+import { createStore } from 'redux';
+import { Provider } from 'react-redux';
 
-// import * as FontAwesome from 'react-icons/fa';
+import App from './components/app';
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+import reducer from './store/reducer';
 
+const store = createStore(reducer);
 
-render (< App />, document.getElementById('root'))
+render (
+  <Provider store = {store}>
+  < App />
+  </Provider>,
+  document.getElementById('root')
+);
