@@ -100,7 +100,7 @@ Proyecto
 
 
 ## **Prototipado**
-
+  ![vista 1](src/assets/Desktop.png)
 
 ## **Resultado Final**
 
