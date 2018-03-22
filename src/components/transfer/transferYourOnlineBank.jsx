@@ -4,7 +4,7 @@ const TransferYourOnlineBank = () => (
   <div className="container">
   <div className="row justify-content-md-center">
     <div className="col-md-auto line-height">
-    <h5>Paso 1: Transfiere desde tu banca en línea</h5>
+    <h6>Paso 1: Transfiere desde tu banca en línea</h6>
     <p>Cantidad a transferir:</p>
     <p>Banco origen:</p>
     <p>Banco destino:</p>
