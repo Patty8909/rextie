@@ -1,5 +1,5 @@
 import React from 'react'
-import TransferYourOnlineBank from './TransferYourOnlineBank'
+import transferYourOnlineBank from './transferYourOnlineBank'
 import RextieTransferToClient from './RextieTransferToClient'
 import { connect } from 'react-redux';
 import './MainTransfer.css'
@@ -15,7 +15,7 @@ const MainTransfer = ({navigateTo}) => (
      </div>
      <p>
     </p>
-    <TransferYourOnlineBank/>
+    <transferYourOnlineBank/>
     <RextieTransferToClient/>
     <div className="btn-group btn-group-toggle" data-toggle="buttons">
       <a className="btn btn-success" onClick={() => navigateTo('alloperations')}>Ir a la P&aacute;gina Principal</a>
