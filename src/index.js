@@ -5,12 +5,12 @@ import { Provider } from 'react-redux';
 
 import App from './components/app';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
-import reducer from './store/reducer';
+// import reducer from './store/reducer';
 
-const store = createStore(reducer);
-
+// const store = createStore(reducer);
+// store = {store}
 render (
-  <Provider store = {store}>
+  <Provider >
   < App />
   </Provider>,
   document.getElementById('root')

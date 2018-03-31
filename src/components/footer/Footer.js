@@ -10,8 +10,8 @@ const Footer = () => (
           <strong className="pb-4">Registrados en</strong>
         </h4>
         <ul>
-          <li><a href="http://www.sbs.gob.pe/directorios/registro-de-casas-de-cambio-creditos-prestamos-y-empenos/publicacion-del-registro/casas-de-cambio">Superintendencia de Banca, Seguros y AFP</a></li>
-          <li><a href="http://e-consultaruc.sunat.gob.pe/cl-ti-itmrconsruc/jcrS00Alias">SUNAT REXTIE S.A.C RUC: 20601030013</a></li>
+          <li><a className="link-footer" href="http://www.sbs.gob.pe/directorios/registro-de-casas-de-cambio-creditos-prestamos-y-empenos/publicacion-del-registro/casas-de-cambio">Superintendencia de Banca, Seguros y AFP</a></li>
+          <li><a className="link-footer" href="http://e-consultaruc.sunat.gob.pe/cl-ti-itmrconsruc/jcrS00Alias">SUNAT REXTIE S.A.C RUC: 20601030013</a></li>
         </ul>
       </div>
       <div className="col-md-4 mx-auto md-mb-4">
@@ -19,10 +19,10 @@ const Footer = () => (
           <strong className="pb-4">Enlaces</strong>
         </h4>
         <ul>
-          <li><a href="#!">Ayuda</a></li>
-          <li><a href="#!">T&eacute;rminos y Condiciones de Uso</a></li>
-          <li><a href="#!">Pol&iacute;tica de Privacidad</a></li>
-          <li><a href="#!">Libro de Reclamaciones</a></li>
+          <li><a className="link-footer" href="#!">Ayuda</a></li>
+          <li><a className="link-footer" href="#!">T&eacute;rminos y Condiciones de Uso</a></li>
+          <li><a className="link-footer" href="#!">Pol&iacute;tica de Privacidad</a></li>
+          <li><a className="link-footer" href="#!">Libro de Reclamaciones</a></li>
         </ul>
       </div>
       <div className="col-md-4 mx-auto md-mb-4">

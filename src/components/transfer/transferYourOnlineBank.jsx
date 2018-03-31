@@ -1,6 +1,6 @@
 import React from 'react';
 
-const transferYourOnlineBank = () => (
+const TransferYourOnlineBank = () => (
   <div className="container">
     <div className="row justify-content-md-center">
       <div className="col-md-auto line-height">
@@ -18,4 +18,4 @@ const transferYourOnlineBank = () => (
   </div>
 );
 
-export default transferYourOnlineBank;
+export default TransferYourOnlineBank;

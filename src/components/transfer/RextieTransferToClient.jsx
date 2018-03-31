@@ -20,4 +20,4 @@ const RextieTransferToClient = () => (
   </div>
 )
 
-export default RextieTransferToClient
+export default RextieTransferToClient;
