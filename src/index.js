@@ -1,17 +1,18 @@
-import React from 'react';
-import { render } from 'react-dom';
-import { createStore } from 'redux';
-import { Provider } from 'react-redux';
+import React from "react";
+import { render } from "react-dom";
+import { Provider } from "react-redux";
+import { Values } from "redux-form-website-template";
+import store from "./register/Store";
+import showResults from "./register/ShowResults";
+import Form from "./register/Form";
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 
-import App from './components/app';
-import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
-import reducer from './store/reducer';
+render(
+  <Provider store={store}>
+    <div style={{ padding: 15 }}>
+      <Form onSubmit={showResults} />
 
-const store = createStore(reducer);
-
-render (
-  <Provider store = {store}>
-  < App />
+    </div>
   </Provider>,
-  document.getElementById('root')
+  document.getElementById("root")
 );
