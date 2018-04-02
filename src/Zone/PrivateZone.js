@@ -3,12 +3,13 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 const PrivateZone = props =>  {
   const { handleSubmit } = props;
+  const local = JSON.parse(localStorage.getItem("firstPerson"))
   return (
     // debería iterarse con map para que con cada click acceda a la ruta onClick={() => navigateTo(id)}>
   
-  <div className="col-md-8 md-mb-2 justify-content-center align-items-center">
+  <div className="col-md-3 md-mb-2 justify-content-center align-items-center">
     <p><strong>Cuenta Personal</strong></p>
-    <p>DNI - 43496820</p>
+    <p>{`DNI ${local.documentNumber}`}</p>
     <ul className="list-group sidebar-nav mb-4" id="sidebar-nav">
       <li className="d-flex align-items-center">
         <a href="#/"><i className="fa fa-play"></i> Nueva Operación</a>
