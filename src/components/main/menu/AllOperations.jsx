@@ -8,7 +8,7 @@ class AllOperations extends React.Component {
     this.state = {
       user: {}
     };
-    this.handleLogout = this.handleLogout.bind(this);
+    // this.handleLogout = this.handleLogout.bind(this);
   }
   render() {
     return (
