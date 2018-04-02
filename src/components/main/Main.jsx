@@ -1,6 +1,5 @@
 import React from 'react';
 import AllOperations from './menu/AllOperations';
-import Details from './details/Details';
 
 // Json para formulario
 const formulario = [
@@ -14,19 +13,21 @@ const formulario = [
 const USER = [
   {
     name: "",
+    tipoDoc: [];
+    numeroDoc: "";
+    email: "";
+    fecha_Nac: "";
+    celular: "";
+    telef_casa: "";
+    ubigeo: "";
+    ocupacion: "";
   }
 ]
 
 const Main = () => (
   <div className="container">
-{/*     
-      <div className="row justify-content-around">
-        <AllOperations className="col-3"/>
-        <Details className="col-6"/>
-      </div> */}
-    <div class="row justify-content-around">
-      <AllOperations class="col-4"/>
-      <Details class="col-6"/>
+    <div className="row justify-content-around">
+      <AllOperations className="col-4"/>
     </div>
     
   </div>

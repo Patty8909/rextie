@@ -19,8 +19,17 @@ ul li {
 
 li a, li a .links-footer {
   text-decoration: none;
+  color: #fff;
 }
 
 li a .links-footer {
   color: #eee;
+}
+
+.icon-center {
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  /* padding: .5em; */
+  vertical-align: middle;
 }

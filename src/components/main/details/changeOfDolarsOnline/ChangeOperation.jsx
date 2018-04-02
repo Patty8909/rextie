@@ -2,13 +2,13 @@ import React from 'react';
 
 const ChangeOperation = () => (
   <div>
-    <div className="container">
+    <div className="Container p-3 col-12 col-lg-9">
   <div className="row justify-content-md-center">
     <div className="card border-info mb-3" style={{'maxWidth': '18rem'}}>
       <div className="card-body text-info">
-        <h3>Compra: 
+        <h3>Compra: 3.2000
           <span></span>
-          &nbsp;-&nbsp;Venta: <span></span>
+          &nbsp;-&nbsp;Venta: 3.2480<span></span>
         </h3>
       </div>
     </div>

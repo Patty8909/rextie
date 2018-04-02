@@ -36,11 +36,11 @@ const Footer = () => (
         </ul>
       </div>
       <div>
-        <ul>
-          <li><i className="fa fa-facebook mr-3"></i></li>
-          <li><i className="fa fa-twitter mr-3"></i></li>
-          <li><i className="fa fa-google-plus mr-3"></i></li>
-          <li><i className="fab fa-linkedin-in mr-3"></i></li>
+        <ul className="list-inline">
+          <li className="list-inline-item"><a href="https://www.facebook.com/RextiePeru"><i className="icon-center px-4 py-3 fab fa-facebook-f mr-3"></i></a></li>
+          <li className="list-inline-item"><a href="https://twitter.com/rextieperu"><i className="icon-center p-3 fab fa-twitter mr-3"></i></a></li>
+          <li className="list-inline-item"><a href="https://plus.google.com/+Rextie"><i className="icon-center px-3 py-3 fab fa-google-plus-g mr-3"></i></a></li>
+          <li className="list-inline-item"><a href="https://www.linkedin.com/company-beta/16178273/"><i className="icon-center p-3 fab fa-linkedin-in mr-3"></i></a></li>
         </ul>
       </div>
     </div>
