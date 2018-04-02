@@ -8,9 +8,11 @@ const renderError = ({ meta: { touched, error } }) =>
   touched && error ? <span>{error}</span> : false;
 
 const FormSecondPage = props => {
-  const { handleSubmit, previousPage } = props;
+  const { handleSubmit, previousPage, nextPage} = props;
   return (
-    <div>
+    <div className="container">
+      <div className="row justify-content-center">
+    <div className="col-8">
     <form onSubmit={handleSubmit}>
     
     <div>
@@ -50,9 +52,11 @@ const FormSecondPage = props => {
         <button type="button" className="previous" onClick={previousPage}>
           Anterior
         </button>
-        <button type="submit">Regístrate</button>
+        <button type="submit" className="next">Regístrate</button>
+        <button type="button" className="next" onClick={nextPage}>Siguiente</button>
       </div>
     </form>
+
 
 <div className="modal fade" id="modalBankAccount" tabIndex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
 <div className="modal-dialog" role="document">
@@ -99,6 +103,8 @@ const FormSecondPage = props => {
 <button type="button" className="btn btn-primary">Añadir</button>            
 </div>
   </div>
+</div>
+</div>
 </div>
 </div>
 </div>

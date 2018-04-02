@@ -2,17 +2,21 @@ import React from 'react';
 import { Field, reduxForm } from 'redux-form';
 import validate from './Validate';
 import renderField from './Render';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const FormFirstPage = props => {
   const { handleSubmit } = props;
   return (
+    <div className="container">
+      <div className="row justify-content-center">
+    <div className="col-4">
     <form onSubmit={handleSubmit}>
-    <Field name="email" type="email" component={renderField} label="Email" />
+    <Field name="email" type="email" component={renderField} label="Correo Electrónico" />
       <Field
         name="password"
         type="password"
         component={renderField}
-        label="Contraseña"
+        label="Crea una contraseña"
       />
       <div>
         <label htmlFor="termsAndConditions">Aceptar Términos y Condiciones y Política de Privacidad</label>
@@ -26,9 +30,12 @@ const FormFirstPage = props => {
         </div>
       </div>
       <div>
-        <button type="submit" className="next">Regístrate</button>
+        <button type="submit" className="next btn btn-primary">Regístrate</button>
       </div>
     </form>
+  </div>
+  </div>
+      </div>
   );
 };
 

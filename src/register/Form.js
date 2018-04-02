@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import FormFirstPage from './FormFirstPage';
 import FormSecondPage from './FormSecondPage';
+import FormSuccess from './FormSuccess';
+import PrivateZone from '../Zone/PrivateZone';
 
 class Form extends Component {
   constructor(props) {
@@ -22,6 +24,7 @@ class Form extends Component {
 
   render() {
     const { onSubmit } = this.props;
+    const { nextPage } = this.props;
     const { page } = this.state;
     return (
       <div>
@@ -30,6 +33,16 @@ class Form extends Component {
           <FormSecondPage
             previousPage={this.previousPage}
             onSubmit={onSubmit}
+            nextPage = {this.nextPage} 
+          />}
+          {page === 3 &&
+          <FormSuccess
+            previousPage={this.previousPage}
+            onSubmit={this.nextPage}
+          />}
+          {page === 4 &&
+          <PrivateZone
+            onSubmit={this.nextPage}
           />}
       </div>
     );
