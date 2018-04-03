@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import FormFirstPage from './FormFirstPage';
 import FormSecondPage from './FormSecondPage';
 import FormSuccess from './FormSuccess';
-import PrivateZone from '../Zone/PrivateZone';
+import App from '../App';
 
 class Form extends Component {
   constructor(props) {
@@ -41,7 +41,7 @@ class Form extends Component {
             onSubmit={this.nextPage}
           />}
           {page === 4 &&
-          <PrivateZone
+          <App
             onSubmit={this.nextPage}
           />}
       </div>

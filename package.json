@@ -19,13 +19,13 @@
     "redux-form-website-template": "0.0.103"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "redux-devtools": "^3.4.1",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "redux-devtools": "^3.4.1"
   },
   "devDependencies": {
     "redux-devtools": "^3.4.1"

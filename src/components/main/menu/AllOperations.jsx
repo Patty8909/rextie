@@ -11,11 +11,12 @@ class AllOperations extends React.Component {
     // this.handleLogout = this.handleLogout.bind(this);
   }
   render() {
+  const local = JSON.parse(localStorage.getItem("firstPerson"))
     return (
       // <div className="row">
         <div className="col-12 col-lg-3">
           <p><strong>Cuenta Personal</strong></p>
-          <p>DNI - 43496820</p>
+          <p>{`DNI ${local.documentNumber}`}</p>
           <p>Urco, Patricia</p>
           <ul className="list-group sidebar-nav mb-4" id="sidebar-nav">
             <li className="list-group-item list-group-item-action list-group-item-info d-flex align-items-center all-items">

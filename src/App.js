@@ -19,7 +19,6 @@ class App extends Component {
     return (
       <Router>
         <div>
-          <Header/>
           <div>
             <AllOperations/>
             <Route exact path="/" component={ChangeOfDolars}/>
@@ -29,7 +28,6 @@ class App extends Component {
             <Route path="/history" component={OperatingHistory}/>
             <Route path="/rextiebanking" component={RextieBanking}/>
           </div>
-          <Footer />
         </div>
       </Router>
     );
