@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import { Field, reduxForm } from 'redux-form';
 import validate from './Validate';
 
@@ -13,9 +12,7 @@ const FormSuccess = props => {
       <p>En caso de duda o urgencia, contacta por chat o email info@rextie.com</p>
       </div>
       <div>
-        <Link to='/changeofdolars' className="button">
-          <button type="submit" className="next" >Ir a página principal</button>
-        </Link>
+        <button type="submit" className="next" >Ir a página principal</button>
       </div>
     </form>
 
