@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { connect } from 'react-redux';
 import ModalBankAccount from './ModalBankAccount';
 
@@ -26,9 +27,9 @@ const InformationData = ({navigateTo}) => (
         <div>
           <p>
             ¿Deseas registrar una cuenta bancaria en este momento?
-            <a className="btn btn-primary" href="" role="button" data-toggle="modal" data-target="#exampleModal" onClick={() => navigateTo('modalbankaccount')}>
+            <Link to='bankaccount' className="button btn btn-primary" role="button" data-toggle="modal" data-target="#exampleModal">
               <i className="fas fa-plus"></i>
-            </a>
+            </Link>
           </p>     
         </div>
       </div>
@@ -62,12 +63,11 @@ const InformationData = ({navigateTo}) => (
             <label className="form-check-label" htmlFor="exampleCheck1">Aceptar Términos y Condiciones y Política de Privacidad</label>
           </div>
           <div className="btn-group btn-group-toggle justify-content-center" data-toggle="buttons">
-            <label className="btn btn-secondary">
+            <Link to='/' className="button btn btn-secondary">
               <input type="radio" name="options" id="option2" autoComplete="off"/> Cambiar la cantidad
-            </label>
+            </Link>
       <label className="btn btn-secondary active">
-        <a className="btn btn-back" onClick={() => navigateTo('alloperations')}>Cambiar Operación</a>
-        <a className="btn btn-success" onClick={() => navigateTo('maintransfer')}>Aceptar</a> 
+        <Link to='/transferyour' className="btn btn-success button">Aceptar</Link>
       </label>
       
     </div>

@@ -1,11 +1,12 @@
 import React from 'react';
+import { connect } from 'react-redux';
 import Messages from './Messages';
 import ChangeOperation from './ChangeOperation';
 import './change.css'
 
 const ChangeOfDolars = () => (
 
-        <div className="col-md-8">
+    <div className="col-md-8">
         <div className="text-center">
           <h5>¿Cu&aacute;nto quieres cambiar?</h5>
         </div>
@@ -17,8 +18,8 @@ const ChangeOfDolars = () => (
         </div>
         <ChangeOperation/>
         <Messages/>
-        </div>
+    </div>
    
 );
 
-export default ChangeOfDolars;
+export default connect()(ChangeOfDolars);
