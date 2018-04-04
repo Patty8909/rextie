@@ -33,24 +33,40 @@ A los usuarios se les pidió que utilicen la pagina web de Rextie para saber en 
 - Quise cotizar pero yo ponía tengo y no entendía el quiero.
 - Quise volver a ver el mensaje final y no pude.
 
+## Affinity Map
+Al analizar la data mediante encuestas descubrimos que en su totalidad que el grupo que encuestamos via web ninguno conocía REXTIE y que ellos veian que era más facil realizar sus operaciones en la calles o bancos.
+
+- Luego de las entrevistas encontramos lo siguiente:
+![registro](src/assets/am.JPG)
 
 ### Análisis del flujo 
 Aqui mostraremos el flujo de los procesos:
 
 **Registro**
-![registro](src/assets/reg.jpeg)  
+- ![registro](src/assets/reg.jpeg)  
 
 **Cotizacion**
-![cotiza](src/assets/cot.png)
+- ![cotiza](src/assets/cot.png)
 
 **Confirmacion de datos**
-![confirmacion de datos](src/assets/confird.png)
+- ![confirmacion de datos](src/assets/confird.png)
   
 
 ### User Personas  
-Creamos nuestro user persona ideal para la pagina web de la empresa.  
+Se creo un user persona ideal para la pagina web de la empresa.  
 
 ![user persona](src/assets/userp.png)
+
+### Benchmarking
+Elegimos 7 empresa para analizar, y estas son: 
+- Afex
+- Casa de cambio
+- Cambio Santiago
+- Kambista
+- Globo Cambio
+- Alpe
+- XE
+![Benchmarking](src/assets/bench.jpg)
 
 ## **Herramientas Tecnológicas**
 
