@@ -13,13 +13,14 @@ import RextieBanking from './components/main/details/RextieBanking';
 import InformationData from './components/confirmationData/InformationData'
 import MainTransfer from './components/transfer/MainTransfer';
 import Footer from './components/footer/Footer';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 class App extends Component {
   render() {
     return (
       <Router>
-        <div>
-          <div>
+        <div className="container">
+          <div className="row">
             <AllOperations/>
             <Route exact path="/" component={ChangeOfDolars}/>
             <Route path="/information" component={PersonalInformation}/>
@@ -27,6 +28,7 @@ class App extends Component {
             <Route path="/thirdbank" component={ThirdPartyBankAccount}/>
             <Route path="/history" component={OperatingHistory}/>
             <Route path="/rextiebanking" component={RextieBanking}/>
+           
           </div>
         </div>
       </Router>

@@ -13,8 +13,8 @@ class AllOperations extends React.Component {
   render() {
   const local = JSON.parse(localStorage.getItem("firstPerson"))
     return (
-      // <div className="row">
-        <div className="col-12 col-lg-3">
+      
+        <div className="col-md-3 col-lg-3">
           <p><strong>Cuenta Personal</strong></p>
           <p>{`DNI ${local.documentNumber}`}</p>
           <p>Urco, Patricia</p>
@@ -51,7 +51,7 @@ class AllOperations extends React.Component {
             </li>
           </ul>
         </div>
-      // </div>
+      
     );
   }
 }
