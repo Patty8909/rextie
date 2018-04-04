@@ -12,7 +12,7 @@ const FormSuccess = props => {
       <p>En caso de duda o urgencia, contacta por chat o email info@rextie.com</p>
       </div>
       <div>
-        <button type="submit" className="next" >Ir a página principal</button>
+      <button type="submit" className="next" >Ir a página principal</button>
       </div>
     </form>
 
