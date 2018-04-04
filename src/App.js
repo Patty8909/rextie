@@ -24,9 +24,6 @@ class App extends Component {
             <AllOperations/>
             <Route exact path="/" component={ChangeOfDolars}/>
             <Route path="/informationdata" component={InformationData}/>
-            <Route path="/rextietransfer" component={RextieTransferToClient}/>
-            <Route path="/transferyour" component={TransferYourOnlineBank}/>
-            <Route path="/bankaccount" component={ModalBankAccount}/>
             <Route path="/information" component={PersonalInformation}/>
             <Route path="/personalbankaccount" component={PersonalBankAccount}/>
             <Route path="/thirdbank" component={ThirdPartyBankAccount}/>
