@@ -3,14 +3,14 @@ import { Link } from 'react-router-dom';
 import { connect } from 'react-redux';
 import ModalBankAccount from './ModalBankAccount';
 
-const InformationData = ({navigateTo}) => (
+const InformationData = () => (
   <div>
     <h3 className="text-center">
       Confirmación de Datos
     </h3>
-    <div className="container-fluid">
+    <div className="">
       <div>
-        <div className="row justify-content-center">
+        <div className="">
           <div className="col-6 col-md-1 border">Tipo de operación</div>
           <div className="col-6 col-md-1 border">Cliente ENVÍA</div>
           <div className="col-6 col-md-1 border">Cliente RECIBIRÁ</div>
