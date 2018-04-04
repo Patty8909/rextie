@@ -68,6 +68,17 @@ Elegimos 7 empresa para analizar, y estas son:
 - XE
 ![Benchmarking](src/assets/bench.jpg)
 
+### Prototipo
+![registro](src/assets/registro.png)
+![venta](src/assets/venta.png)
+![compra](src/assets/compra.png)
+![venta llena](src/assets/vll.png)
+![confventa](src/assets/confvent.png)
+
+### Demo
+[marvel](https://marvelapp.com/44399a8/screen/40704920)
+
+
 ## **Herramientas Tecnológicas**
 
 * HTML 5
@@ -127,37 +138,4 @@ Proyecto
 ├── README.md 
 │
 ├── yarn.lock
-
-
-## **Flujo de trabajo**
-
-1. Se creó un nuevo repositorio (https://github.com/Patty8909/rextie).
-
-
-## **Planificación**
-
-1. Día 17 de marzo:
-
-  **Organización personal**: tomar decisiones del reto a desarrollar.
-    - Encargadas: Ambar, Lesly, Patricia.
-
-  **Material a utilizar**: 
-    - Ambar: Encuesta, investigación de la empresa, puntos a corroborar.
-    - Lesly y Patricia: investigacion de las dependencias a usar.
-
-2. Día 18 de marzo:
-
-  **Desarrollo**: 
-    - Ambar: Creación de mockup, prototipo
-    - Lesly y Patricia: creación de componentes
-
-## **Anexos**
-
-### **Scketch**
-
-
-## **Prototipado**
-  ![vista 1](src/assets/Desktop.png)
-
-## **Resultado Final**
 
