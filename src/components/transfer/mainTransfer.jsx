@@ -1,5 +1,5 @@
 import React from 'react'
-import TransferYourOnlineBank from './TransferYourOnlineBank'
+import TransferYourOnlineBank from './transferYourOnlineBank'
 import RextieTransferToClient from './RextieTransferToClient'
 import { connect } from 'react-redux';
 import './MainTransfer.css'

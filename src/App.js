@@ -23,6 +23,7 @@ class App extends Component {
           <div className="row">
             <AllOperations/>
             <Route exact path="/" component={ChangeOfDolars}/>
+            <Route path="/informationdata" component={InformationData}/>
             <Route path="/information" component={PersonalInformation}/>
             <Route path="/personalbankaccount" component={PersonalBankAccount}/>
             <Route path="/thirdbank" component={ThirdPartyBankAccount}/>
