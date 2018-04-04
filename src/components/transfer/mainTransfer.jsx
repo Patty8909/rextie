@@ -4,7 +4,7 @@ import RextieTransferToClient from './RextieTransferToClient'
 import { connect } from 'react-redux';
 import './MainTransfer.css'
 
-const MainTransfer = ({navigateTo}) => (
+const MainTransfer = () => (
    <div>
      <div className="container">
        <div className="row">
@@ -18,8 +18,8 @@ const MainTransfer = ({navigateTo}) => (
     <TransferYourOnlineBank/>
     <RextieTransferToClient/>
     <div className="btn-group btn-group-toggle" data-toggle="buttons">
-      <a className="btn btn-success" onClick={() => navigateTo('alloperations')}>Ir a la P&aacute;gina Principal</a>
-      <a className="btn btn-success" onClick={() => navigateTo('changeofdolars')}>Nueva operaci&iacute;</a>
+      <a className="btn btn-success">Ir a la P&aacute;gina Principal</a>
+      <a className="btn btn-success">Nueva operaci&iacute;</a>
     </div>
      </div>
 )

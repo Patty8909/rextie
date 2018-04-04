@@ -1,7 +1,8 @@
 import React from 'react';
+import { connect } from 'react-redux';
 import Messages from './Messages';
 import ChangeOperation from './ChangeOperation';
-import { connect } from 'react-redux';
+
 import './change.css'
 
 const ChangeOfDolars = () => (
@@ -18,7 +19,7 @@ const ChangeOfDolars = () => (
         
         <ChangeOperation/>
         <Messages/>
-        </div>
+    </div>
    
 );
 

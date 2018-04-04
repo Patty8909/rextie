@@ -9,11 +9,11 @@ import PersonalBankAccount from './components/main/details/PersonalBankAccount';
 import ThirdPartyBankAccount from './components/main/details/ThirdPartyBankAccount';
 import OperatingHistory from './components/main/details/OperatingHistory';
 import RextieBanking from './components/main/details/RextieBanking';
-
-import InformationData from './components/confirmationData/InformationData'
-import MainTransfer from './components/transfer/MainTransfer';
-import Footer from './components/footer/Footer';
+import InformationData from './components/confirmationData/InformationData';
+import RextieTransferToClient from './components/transfer/RextieTransferToClient';
+import TransferYourOnlineBank from "./components/transfer/TransferYourOnlineBank";
 import 'bootstrap/dist/css/bootstrap.min.css';
+import ModalBankAccount from "./components/confirmationData/ModalBankAccount";
 
 class App extends Component {
   render() {
@@ -29,7 +29,6 @@ class App extends Component {
             <Route path="/thirdbank" component={ThirdPartyBankAccount}/>
             <Route path="/history" component={OperatingHistory}/>
             <Route path="/rextiebanking" component={RextieBanking}/>
-           
           </div>
         </div>
       </Router>
