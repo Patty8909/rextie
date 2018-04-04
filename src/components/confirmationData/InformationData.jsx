@@ -11,15 +11,20 @@ const InformationData = () => (
     <div className="">
       <div>
         <div className="">
-          <div className="col-6 col-md-1 border">Tipo de operación</div>
-          <div className="col-6 col-md-1 border">Cliente ENVÍA</div>
-          <div className="col-6 col-md-1 border">Cliente RECIBIRÁ</div>
-          <div className="col-6 col-md-1 border">Tipo de Cambio</div>
-          <div className="w-100 d-none d-md-block"></div>
-          <div className="col-6 col-md-1 border">COMPRA</div>
-          <div className="col-6 col-md-1 border">1000.00 Dólares</div>
-          <div className="col-6 col-md-1 border">3246.00 Soles</div>
-          <div className="col-6 col-md-1 border">3.2460</div>
+          <table>
+   <tr>
+       <td>Tipo de operación</td>
+       <td>Cliente ENVÍA</td>
+       <td>Cliente RECIBIRÁ</td>
+       <td>Tipo de Cambio</td>
+   </tr>
+   <tr>
+       <td>COMPRA</td>
+       <td>1000.00 Dólares</td>
+       <td>3246.00 Soles</td>
+       <td>3.2460</td>
+   </tr>
+</table>
         </div>
       </div>
       <br/>
