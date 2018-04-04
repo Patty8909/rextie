@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from "react-router-dom";
 import { connect } from 'react-redux';
+import './change.css';
 
 const Messages = () => (
   <div>
@@ -15,8 +16,8 @@ const Messages = () => (
     <h5>Tipo de cambio vigente hasta</h5>
     </div>
   <div className="text-center">
-    <a className="btn btn-sucess" role="button"><i className="fal fa-usd-circle"></i></a>
-    <Link to="/informationdata" className="button btn btn-outline-sucess">Continuar</Link>
+    <a role="button"><i className="fal fa-usd-circle"></i></a>
+    <Link to="/informationdata" type="button" className="btn btn-sucess">Continuar</Link>
     </div>
   
   </div>

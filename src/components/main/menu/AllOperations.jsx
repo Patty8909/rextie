@@ -18,7 +18,7 @@ class AllOperations extends React.Component {
           <p><strong>Cuenta Personal</strong></p>
           <p>{`DNI ${local.documentNumber}`}</p>
           <p>Urco, Patricia</p>
-          <ul className="list-group sidebar-nav mb-4" id="sidebar-nav">
+          <ul className="list-group sidebar-nav mb-4 link-ul" id="sidebar-nav">
             <li className="list-group-item list-group-item-action list-group-item-info d-flex align-items-center all-items">
               <Link to="/" className="text-secondary">
                 <i className="fa fa-play"></i> Nueva Operación
